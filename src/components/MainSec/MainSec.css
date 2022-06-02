@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Monoton&family=Poiret+One&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Lobster+Two:ital@1&family=Monoton&family=Poiret+One&family=Righteous&display=swap');
 
 .main-Sec {
     display: flex;
@@ -6,6 +6,11 @@
 	flex-wrap: nowrap;
 	justify-content: space-evenly;
 	align-items: center;
+
+}
+
+#nameFull {
+    font-family: 'Lobster Two', cursive;
 
 }
 
@@ -17,7 +22,7 @@
 	justify-content: space-between;
 	align-items: center;
 	align-content: stretch;
-    height: 600px;
+    height: 500px;
 }
 
 .part2 a {
@@ -32,7 +37,9 @@
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     
+
 }
+
 
 .icon:hover, .icono:focus, .icono:active {
     -webkit-animation-name: hvr-buzz-out;

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
+
 .App {
   text-align: center;
 }
@@ -11,6 +13,20 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+
+#alias {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #B3A20B
+}
+
+.part3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 2vh;
 }
 
 .App-header {
@@ -28,6 +44,17 @@
   color: #61dafb;
 }
 
+#nameFull {
+  font-family: 'Lobster Two', cursive;
+  color: #B3A20B;
+
+}
+
+.homeIcon{ 
+  margin-top: 15px;
+  width: 25px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +63,4 @@
     transform: rotate(360deg);
   }
 }
+

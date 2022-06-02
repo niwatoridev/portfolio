@@ -1,1 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Monoton&family=Poiret+One&family=Righteous&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
+
+
+
+.Main-Div-Info {
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+}
+
+.Info-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.Info-1 div {
+    margin-bottom: 20px;
+    
+}
+
+.Info-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.Info-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.Info-3 div {
+    margin-bottom: 20px;
+    
+}
+
+.profPic {
+    width: 450px;
+}
+
+#textInfo {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #B3A20B
+}
