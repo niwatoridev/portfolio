@@ -20,9 +20,9 @@ function App() {
             <Heading size='2xl' id="nameFull"> 
                 Esteban Munoz
             </Heading>
-            <Heading size='xs' id="alias"> 
+            {/* <Heading size='xs' id="alias"> 
                 esmunozdev
-            </Heading>
+            </Heading> */}
             <Link to="/"><img src={homeIcon} alt='home-icon' className='homeIcon'/></Link>
         </div>
   </div>

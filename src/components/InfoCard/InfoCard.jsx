@@ -1,7 +1,6 @@
 import React from "react";
 import "./InfoCard.css"
 import { Heading } from "@chakra-ui/react";
-import { Link } from "react-router-dom";
 import profPic from "../../images/Circular.png"
 
 
@@ -21,7 +20,7 @@ const InfoCard = () => {
                 </div>
             </div>
             <div className="Info-2">
-                    <img src={profPic} alt="prof-pic" className="profPic"/>
+                    <figure><img src={profPic} alt="prof-pic" id="profPic"/></figure>
             </div>
             <div className="Info-3">
                 <div>

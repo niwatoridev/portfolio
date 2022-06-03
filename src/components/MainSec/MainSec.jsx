@@ -6,7 +6,6 @@ import githubIcon from "../../images/icons/github-sign.png"
 import instagramIcon from "../../images/icons/instagram.png"
 import portfolioIcon from "../../images/icons/portfolio.png"
 import infoIcon from "../../images/icons/id-card.png"
-import { Heading } from "@chakra-ui/react";
 
 
 const MainSec = () => {
