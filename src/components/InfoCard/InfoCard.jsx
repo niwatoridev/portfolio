@@ -2,6 +2,10 @@ import React from "react";
 import "./InfoCard.css"
 import { Heading } from "@chakra-ui/react";
 import profPic from "../../images/Circular.png"
+import homeIcon from "../../images/icons/home.png"
+import { Link } from "react-router-dom";
+
+
 
 
 const InfoCard = () => {
@@ -33,6 +37,12 @@ const InfoCard = () => {
                     <Heading size='lg' id="textInfo">México</Heading>   
                 </div>
             </div>
+        </div>
+        <div className="part3">
+            <Heading size='2xl' id="nameFull"> 
+                Esteban Munoz
+            </Heading>
+            <Link to="/"><img src={homeIcon} alt='home-icon' className='homeIcon'/></Link>
         </div>
     </div>
     );

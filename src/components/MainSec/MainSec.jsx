@@ -6,6 +6,10 @@ import githubIcon from "../../images/icons/github-sign.png"
 import instagramIcon from "../../images/icons/instagram.png"
 // import portfolioIcon from "../../images/icons/portfolio.png"
 import infoIcon from "../../images/icons/id-card.png"
+import {Heading} from '@chakra-ui/react'
+
+
+
 
 
 const MainSec = () => {
@@ -18,8 +22,13 @@ const MainSec = () => {
             <Link to="/info"><img src={infoIcon} alt="info-icon" className="icon"/></Link>
             {/* <Link to="/portfolio"><img src={portfolioIcon} alt="portfolio-icon" className="icon"/></Link> */}
         </div>
-       
+        <div className="part3">
+            <Heading size='2xl' id="nameFull"> 
+                Esteban Munoz
+            </Heading>        
+        </div>
     </div>
+    
     );
   };
   
