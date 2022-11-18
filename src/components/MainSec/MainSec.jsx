@@ -16,7 +16,7 @@ const MainSec = () => {
             <a href="https://github.com/niwatoridev" target="_blank" rel="noreferrer"><img src={githubIcon} alt="git-icon" className="icon"></img></a>
             <a href="https://www.instagram.com/_esmunoz/" target="_blank" rel="noreferrer"><img src={instagramIcon} alt="instagram-icon" className="icon"></img></a>
             <Link to="/info"><img src={infoIcon} alt="info-icon" className="icon"/></Link>
-            <Link to="/portfolio"><img src={portfolioIcon} alt="portfolio-icon" className="icon"/></Link>
+            {/* <Link to="/portfolio"><img src={portfolioIcon} alt="portfolio-icon" className="icon"/></Link> */}
         </div>
        
     </div>
