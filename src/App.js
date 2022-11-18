@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, Link } from 'react-router-dom'
+import { Routes, Route} from 'react-router-dom'
 import MainSec from './components/MainSec/MainSec'
 import InfoCard from './components/InfoCard/InfoCard'
 import Portfolio from './components/Portfolio/Portfolio'
